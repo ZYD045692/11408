@@ -4,19 +4,16 @@
   "title": "分析当前项目结构与技术栈",
   "titleGenerationStatus": "success",
   "createdAt": 1786953525114,
-  "lastActivityAt": 1786986295407,
-  "sessionId": "cfe5385f-f6a6-4839-808a-74e168ce87aa",
+  "lastActivityAt": 1786986350646,
+  "sessionId": null,
   "selectedModel": "fable",
-  "providerState": {
-    "providerSessionId": "cfe5385f-f6a6-4839-808a-74e168ce87aa"
-  },
   "usage": {
     "model": "fable",
-    "inputTokens": 264,
+    "inputTokens": 1406,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 95744,
+    "cacheReadInputTokens": 96256,
     "contextWindow": 1000000,
-    "contextTokens": 96008,
+    "contextTokens": 97662,
     "percentage": 10
   }
 }
