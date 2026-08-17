@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "haiku",
+  "model": "fable",
   "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -103,7 +103,7 @@
     "model": "fable"
   },
   "savedProviderModel": {
-    "claude": "haiku"
+    "claude": "fable"
   },
   "savedProviderEffort": {
     "claude": "high"
