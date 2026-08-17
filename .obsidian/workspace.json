@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "4bc67497748e7c20",
+    "type": "split",
+    "children": [
+      {
+        "id": "31d7a27a022123bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03f3542903015182",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44c930dc51b36e4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b85623e623ab31d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "398ac0d079385347",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "20f9b1c0a21bb287",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "b7f649c8c4a3f226",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "44b715e44dd8e456",
+    "type": "split",
+    "children": [
+      {
+        "id": "b92b0d29f448e5bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf23602083ca6ed4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "fc9ed8145abe44d3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "77a58d22b67dbf8a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "c16e4ea798058ddf",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "38cd5d1e9b862931",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
+            }
+          },
+          {
+            "id": "ddbd23eca6371324",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "realclaudian:Open Claudian": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-spaced-repetition:复习卡片": false
+    }
+  },
+  "active": "ddbd23eca6371324",
+  "lastOpenFiles": [
+    "11408/origin/27张宇基础30讲（高数）/27张宇基础30讲（高数）.md.tmp.151340.040ff1815205",
+    "_tmp_l1_p47.png",
+    "_tmp_l1_p46.png",
+    "_tmp_l1_p45.png",
+    "_tmp_l1_p20.png",
+    "_tmp_l1_p19.png",
+    "_tmp_l1_p18.png",
+    "_tmp_l1_p17.png",
+    "11408/pdf/27张宇基础30讲（高数）.pdf",
+    "11408/origin/27张宇基础30讲（高数）/27张宇基础30讲（高数）.md",
+    "_tmp_l1_p15.png",
+    "_tmp_l1_p14.png",
+    "_tmp_l1_p13.png",
+    "11408/origin/27张宇基础30讲线代/27张宇基础30讲线代.md",
+    "11408/origin/27张宇基础30讲（高数）/27张宇基础30讲（高数）.md.tmp.151340.7c8e22b20375",
+    "11408/origin/27张宇基础30讲（高数）/27张宇基础30讲（高数）.md.tmp.151340.7380034bb912",
+    "11408/origin/27张宇1000题数一【试题册】/27张宇1000题数一【试题册】.md",
+    "11408/处理流程.md.tmp.151340.cfa8fb52b037",
+    "11408/处理流程.md.tmp.151340.f8afd1f7a396",
+    "_outline_test/A2_修复后完整.md",
+    "11408/origin/27张宇基础30讲（高数）/27张宇基础30讲（高数）.md.tmp.151340.17115fcd8109",
+    "_outline_test/O_17453-17472.md",
+    "_outline_test/N_17433-17452.md",
+    "_outline_test/M_17473-17513.md",
+    "_outline_test/L_17433-17472.md",
+    "_outline_test/J_17352-17432.md",
+    "_outline_test/K_17433-17513.md",
+    "_outline_test/I_17353-17513.md",
+    "_outline_test/H_17191-17352.md",
+    "_outline_test/G_前半2.md",
+    "_outline_test/F_前半1.md",
+    "_outline_test/D_15讲前半.md",
+    "_outline_test/E_15讲后半.md",
+    "_outline_test/C_到15讲止.md",
+    "_outline_test/B_从15讲起.md",
+    "_outline_test/A_完整副本.md",
+    "_outline_test",
+    "11408/origin/27张宇基础30讲（高数）/27张宇基础30讲（高数）.md.tmp.140944.c9f2daa148c6",
+    "11408/origin/27张宇基础30讲（高数）/27张宇基础30讲（高数）.md.tmp.140944.f4b879639ee5",
+    "11408/origin/27张宇基础30讲（高数）/27张宇基础30讲（高数）.md.tmp.140944.728a17b45072",
+    "_backup_round2/高数_before_outline.md",
+    "_backup_round2/27张宇1000题数一【解析册】_before_qnum.md",
+    "_backup_tables/11408_origin_27张宇1000题数一【解析册】_27张宇1000题数一【解析册】.md",
+    "_backup_round2/高数_before_dupfix.md"
+  ]
+}

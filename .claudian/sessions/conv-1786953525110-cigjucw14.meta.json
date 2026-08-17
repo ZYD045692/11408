@@ -1,0 +1,22 @@
+{
+  "id": "conv-1786953525110-cigjucw14",
+  "providerId": "claude",
+  "title": "分析当前项目结构与技术栈",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786953525114,
+  "lastActivityAt": 1786963475045,
+  "sessionId": "cfe5385f-f6a6-4839-808a-74e168ce87aa",
+  "selectedModel": "fable",
+  "providerState": {
+    "providerSessionId": "cfe5385f-f6a6-4839-808a-74e168ce87aa"
+  },
+  "usage": {
+    "model": "fable",
+    "inputTokens": 689,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 227072,
+    "contextWindow": 1000000,
+    "contextTokens": 227761,
+    "percentage": 23
+  }
+}

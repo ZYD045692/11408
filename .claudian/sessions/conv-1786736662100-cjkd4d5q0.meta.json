@@ -1,0 +1,22 @@
+{
+  "id": "conv-1786736662100-cjkd4d5q0",
+  "providerId": "claude",
+  "title": "盘点可用的技能与 MCP 工具",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786736662105,
+  "lastActivityAt": 1786953466838,
+  "sessionId": "fd6d5ae5-27d9-4267-8265-fb2a769bc08a",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "fd6d5ae5-27d9-4267-8265-fb2a769bc08a"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}
