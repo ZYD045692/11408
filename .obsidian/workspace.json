@@ -95,8 +95,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
             }
           },
           {
@@ -206,8 +206,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
@@ -232,7 +231,7 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "96bb4fc25bf381f6",
+  "active": "17cd16864706caa2",
   "lastOpenFiles": [
     "_notes_runtime/pdf_bookmark/toc_final_概统.txt",
     "_notes_runtime/pdf_bookmark/toc_final_线代.txt",
