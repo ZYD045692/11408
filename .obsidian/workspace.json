@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "45eda9ccf2c12125",
+        "id": "8521cb49cc62510a",
         "type": "tabs",
         "children": [
           {
-            "id": "41c9107979587dc6",
+            "id": "0910f7511b8d9357",
             "type": "leaf",
             "state": {
-              "type": "claudian-view",
+              "type": "empty",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
-          },
-          {
-            "id": "06f6eca4c15a248a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11408/origin/2027数据结构/2027数据结构.md",
-                "mode": "source",
-                "source": false
-              },
               "icon": "lucide-file",
-              "title": "2027数据结构"
+              "title": "新标签页"
             }
           }
         ]
@@ -100,15 +86,61 @@
     "type": "split",
     "children": [
       {
-        "id": "b92b0d29f448e5bc",
+        "id": "b53c73172f27818b",
         "type": "tabs",
         "children": [
           {
-            "id": "bf23602083ca6ed4",
+            "id": "17cd16864706caa2",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "562bb27d3115e39b",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {
+                "tabWorkspace": {
+                  "version": 1,
+                  "openTabs": [
+                    {
+                      "tabId": "tab-1788325276088-io9n3uw",
+                      "conversationId": "conv-1788325297716-22ovo7rne"
+                    }
+                  ],
+                  "activeTabId": "tab-1788325276088-io9n3uw"
+                }
+              },
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "cf3d9c1b619fb17e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "3a866962ef4a1e24",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "11408/笔记/数学/30讲-高数/第1讲-函数极限与连续/1.1-函数的概念与特性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,11 +154,12 @@
             }
           },
           {
-            "id": "fc9ed8145abe44d3",
+            "id": "895b2f42ea6f3ddb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "11408/笔记/数学/30讲-高数/第1讲-函数极限与连续/1.1-函数的概念与特性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -135,7 +168,7 @@
             }
           },
           {
-            "id": "77a58d22b67dbf8a",
+            "id": "0effa1f8f52320d3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -150,7 +183,7 @@
             }
           },
           {
-            "id": "c16e4ea798058ddf",
+            "id": "bfb9389656f71c9e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -164,17 +197,7 @@
             }
           },
           {
-            "id": "38cd5d1e9b862931",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
-            }
-          },
-          {
-            "id": "ddbd23eca6371324",
+            "id": "96bb4fc25bf381f6",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -184,11 +207,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 422.88916015625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,53 +232,53 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "41c9107979587dc6",
+  "active": "96bb4fc25bf381f6",
   "lastOpenFiles": [
-    "未命名.base",
-    "11408/origin/2027数据结构/2027数据结构.md",
-    "11408/拆分稿/操作系统/01-计算机系统概述/习题/1.1-本节习题与解析.md",
-    "11408/拆分稿/操作系统/01-计算机系统概述/习题/1.2-本节习题与解析.md",
-    "11408/拆分稿/操作系统/01-计算机系统概述/习题/1.6-本节习题与解析.md",
-    "11408/处理流程.md.tmp.162348.cc859e6ac024",
-    "11408/处理流程.md.tmp.162348.7b6aa0a9f463",
-    "_pdf_sheet_p112-113.png",
-    "11408/origin/2027操作系统/2027操作系统.md.tmp.162348.a82a90282558",
-    "_backup_round2/计算机网络_before_tifix408.md",
-    "_fix_ti_jw_round2.py",
-    "_fix_ti_jw_round2.py.tmp.162348.9a89fdc16455",
-    "_pdf_page_216.png",
-    "_pdf_page_215.png",
-    "_fix_ti_jz_round2.py.tmp.162348.7a3178acd264",
-    "_backup_round2/计算机组成原理_before_tifix408.md",
-    "_fix_ti_jz_round2.py",
-    "_fix_ti_jz_round2.py.tmp.162348.d2f18e78e618",
-    "_pdf_page_283.png",
-    "_pdf_page_285.png",
-    "_pdf_page_284.png",
-    "_pdf_sheet_p248-249.png",
-    "_pdf_page_202.png",
-    "_pdf_sheet_p200-201.png",
-    "_pdf_sheet_p205-208.png",
-    "_fix_ti_os_round2.py.tmp.162348.25f24662ad37",
-    "_backup_round2/操作系统_before_tifix408.md",
-    "_fix_ti_os_round2.py",
-    "_backup_round2/数据结构_before_tifix408.md",
-    "_backup_round2/2027计算机网络_before_ti408.md",
-    "_backup_round2/2027计算机组成原理_before_ti408.md",
-    "_backup_round2/2027操作系统_before_ti408.md",
-    "_backup_round2/2027数据结构_before_ti408.md",
-    "11408/origin/2027操作系统/2027操作系统.md",
-    "11408/origin/2027计算机网络/2027计算机网络.md",
-    "11408/origin/27张宇基础30讲线代/27张宇基础30讲线代.md",
-    "_backup_round2/线代_before_lec0fix.md",
-    "_backup_round2/线代_before_tifix2.md",
-    "_backup_round2/线代_before_tiheadings.md",
+    "_notes_runtime/pdf_bookmark/toc_final_概统.txt",
+    "_notes_runtime/pdf_bookmark/toc_final_线代.txt",
+    "_notes_runtime/pdf_bookmark/toc_final_高数.txt",
+    "_notes_runtime/pdf_bookmark/verify_stripped.py",
+    "11408/pdf/数学/27李良概统辅导-基础&强化.pdf",
+    "_notes_runtime/pdf_bookmark/strip_概统_new3.png",
+    "_notes_runtime/pdf_bookmark/strip_概统_new2.png",
+    "_notes_runtime/pdf_bookmark/strip_概统_new1.png",
+    "_notes_runtime/pdf_bookmark/strip_线代_new3.png",
+    "_notes_runtime/pdf_bookmark/strip_线代_new2.png",
+    "_notes_runtime/pdf_bookmark/strip_线代_new1.png",
+    "_notes_runtime/pdf_bookmark/strip_高数_new3.png",
+    "_notes_runtime/pdf_bookmark/strip_高数_new2.png",
+    "_notes_runtime/pdf_bookmark/strip_高数_new1.png",
+    "_notes_runtime/pdf_bookmark/render_strip_check.py",
+    "11408/pdf/数学/27李良概统辅导-基础&强化.pdf.tmp",
+    "_notes_runtime/pdf_bookmark/backup_概统_含前置广告版.pdf",
+    "11408/pdf/数学/27张宇基础30讲线代.pdf.tmp",
+    "_notes_runtime/pdf_bookmark/backup_线代_含前置广告版.pdf",
+    "11408/pdf/数学/27张宇基础30讲高数.pdf.tmp",
+    "_notes_runtime/pdf_bookmark/gt_p6_bl8x.png",
+    "11408/首页.md",
     "11408/origin/27张宇基础30讲（高数）/27张宇基础30讲（高数）.md",
-    "11408/origin/27张宇1000题数一【试题册】/27张宇1000题数一【试题册】.md",
-    "_backup_round2/高数_before_tifix2.md",
-    "_backup_round2/高数_before_shorten.md",
-    "_backup_round2/高数_before_tiheadings.md",
-    "_backup_round2/27张宇基础30讲（高数）_before_gluefix.md",
-    "_backup_round2/2027计算机网络_before_gluefix.md"
+    "11408/origin/27李良概统基础/第二章-一维随机变量及其分布.md",
+    "11408/笔记/数学/30讲-高数/第1讲-函数极限与连续/1.2-函数的图像.md",
+    "11408/笔记/数学/30讲-高数/第1讲-函数极限与连续/1.1-函数的概念与特性.md",
+    "11408/笔记/数学/30讲-线代/第2讲-矩阵.md",
+    "11408/笔记/数学/30讲-线代/第1讲-行列式.md",
+    "11408/origin/27李良概统基础/第七章-参数估计与假设检验.md",
+    "11408/拆分稿/数学/概统-强化/第四章-数字特征.md",
+    "11408/拆分稿/数学/概统-强化/第六章-数理统计的基本概念.md",
+    "11408/拆分稿/数学/概统-强化/第五章-大数定律和中心极限定理.md",
+    "11408/拆分稿/数学/概统-强化/第二章-一维随机变量及其分布.md",
+    "11408/拆分稿/数学/概统-强化/第三章-多维随机变量及其分布.md",
+    "11408/拆分稿/数学/概统-强化/第七章-参数估计与假设检验.md",
+    "11408/拆分稿/数学/概统-强化/第一章-随机事件和概率.md",
+    "11408/拆分稿/数学/概统-基础/第四章-数字特征.md",
+    "11408/拆分稿/数学/概统-基础/第六章-数理统计的基本概念.md",
+    "11408/拆分稿/数学/概统-基础/第五章-大数定律和中心极限定理.md",
+    "11408/拆分稿/数学/概统-基础/第二章-一维随机变量及其分布.md",
+    "11408/拆分稿/数学/概统-基础/第三章-多维随机变量及其分布.md",
+    "11408/拆分稿/数学/概统-基础/第七章-参数估计与假设检验.md",
+    "11408/拆分稿/数学/概统-基础/第一章-随机事件和概率.md",
+    "11408/origin/27李良概统基础/第六章-数理统计的基本概念.md",
+    "11408/笔记/408/数据结构/02-线性表/2.2-线性表的顺序表示.md",
+    "11408/笔记/408/数据结构/02-线性表/2.1-线性表的定义和基本操作.md"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "fable",
+  "model": "claude-code/deepseek-v4-flash-0731",
   "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -29,18 +29,18 @@
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {
-        "device:5ec3483b-c786-4b9e-9ff7-6b4bb07dd90b": "C:\\Users\\Surperman\\.local\\bin\\claude.exe"
+        "device-97c2069730e0ad327f56c6174c64a548685bb65bb94e3aedefb8949ba206157a": "C:\\Users\\Surperman\\AppData\\Roaming\\npm\\claude.cmd"
       },
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
       "customModels": "",
-      "defaultModel": "fable",
+      "defaultModel": "haiku",
       "lastModel": "haiku",
       "modelEnvironmentType": "haiku",
       "titleModelEnvironmentType": "",
       "environmentVariables": "",
-      "environmentHash": "runtime-input:v1:1e83dbbc41b42657d4e685c43deabbaaa359922c5d122452a6d22eaedb41c1ad"
+      "environmentHash": "runtime-input:v1:be9791b3cd1dc21b369c57b631aa072541fbd9c8849751678aa9ac56ae197e64"
     },
     "codex": {
       "enabled": false,
@@ -100,10 +100,10 @@
   "settingsProvider": "claude",
   "lastSelectedChatModel": {
     "providerId": "claude",
-    "model": "fable"
+    "model": "claude-code/deepseek-v4-flash-0731[1M]"
   },
   "savedProviderModel": {
-    "claude": "fable"
+    "claude": "claude-code/deepseek-v4-flash-0731"
   },
   "savedProviderEffort": {
     "claude": "high"
@@ -121,10 +121,13 @@
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "main-tab",
   "enableDualPane": true,
-  "enableFilePane": true,
   "dualPaneSide": "right",
+  "restoreTabsOnStartup": true,
+  "collabEnabled": true,
+  "collabProjectsFolder": "workspace",
+  "collabGitPath": "",
   "sessionManagerOrganization": "list",
   "sessionManagerSort": "last-updated",
-  "pinnedLinkedNotePaths": [],
+  "pinnedLinkedContentPaths": [],
   "hiddenProviderCommands": {}
 }

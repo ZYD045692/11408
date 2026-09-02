@@ -1,0 +1,13 @@
+{
+  "id": "conv-1788059902063-fpdqcangb",
+  "providerId": "claude",
+  "title": "问候开场",
+  "titleGenerationStatus": "success",
+  "createdAt": 1788059902066,
+  "lastActivityAt": 1788059911573,
+  "sessionId": "a4becf80-5271-4119-b3cf-3c0865ea86c9",
+  "selectedModel": "claude-code/deepseek-v4-flash-0731",
+  "providerState": {
+    "providerSessionId": "a4becf80-5271-4119-b3cf-3c0865ea86c9"
+  }
+}

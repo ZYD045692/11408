@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788325297716-22ovo7rne",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788325297860-mp7526w",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788325297709-hrsbzub",
+      "timestamp": 1788325297709,
+      "rawDisplayText": "pc存在哪？",
+      "canonicalText": "pc存在哪？",
+      "images": [],
+      "contentDigest": "9e3486ab0046a5c415e9b0cf332abbb85252dd077824ea1d69ed34681ef33f22",
+      "providerUserMessageId": "18f0e15f-1c41-427b-8479-15cc7f224297",
+      "providerAssistantMessageId": "b39c4f07-e2fe-42d7-9dec-8bdfa8635c1f"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788325360147-el7wmh0",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1788325360143-p9pmqk9",
+      "timestamp": 1788325360143,
+      "rawDisplayText": "应该是计组中的概念。",
+      "canonicalText": "应该是计组中的概念。",
+      "images": [],
+      "contentDigest": "ac8b79b5f20dee4f8d063b6a991dcb25c40ca9c875c8301de2d8de7c6f82b4af",
+      "providerUserMessageId": "6fb30b23-607e-439a-9727-14b6e148e138",
+      "providerAssistantMessageId": "569696f6-313d-4f7d-9fed-988a91abecc6"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788325382575-86y0r6b",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1788325382571-q4ufv0d",
+      "timestamp": 1788325382571,
+      "rawDisplayText": "从我的拆分稿里面找",
+      "canonicalText": "从我的拆分稿里面找",
+      "images": [],
+      "contentDigest": "af96233839574124320076774e78dce4f4d04e16a248a55c09657db4a5c74db3",
+      "providerUserMessageId": "debda495-ba5e-4133-9e82-4255793bda3b",
+      "providerAssistantMessageId": "e9c4f515-0e90-45ce-8d71-efc0a6afe1a0"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788325424417-ytzcd3f",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1788325424414-m0v12nd",
+      "timestamp": 1788325424414,
+      "rawDisplayText": "pc存在哪？",
+      "canonicalText": "pc存在哪？",
+      "images": [],
+      "contentDigest": "9e3486ab0046a5c415e9b0cf332abbb85252dd077824ea1d69ed34681ef33f22",
+      "providerUserMessageId": "16414430-951d-4acf-a8dc-2d7d766b252d",
+      "providerAssistantMessageId": "b4a71dc2-fce2-4907-8c97-dbd05b5f18d8"
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+[
+[
+"408/数据结构/8-排序/8.5-归并排序、基数排序和计数排序.md",
+"60",
+"L60 INLINE KaTeX parse error: Undefined control sequence | k \\≫ n \\ ext{log} n",
+"时间：统计与填充$O(n)$，初始化与累加$O(k)$；空间：输出数组$O(n)$+计数数组$O(k)$；若$k \\≫ n \\ ext{log} n$则效率低。"
+],
+[
+"408/数据结构/8-排序/8.5-归并排序、基数排序和计数排序.md",
+"110",
+"L110 INLINE KaTeX parse error: Undefined control sequence | k \\≫ O(n \\ ext{log}_2 n)",
+"- 当$k \\≫ O(n \\ ext{log}_2 n)$时，计数排序效率如何？::效率不如基于比较的排序算法（如快排、堆排）"
+],
+[
+"408/计算机组成原理/4-指令系统/4.3-程序的机器级代码表示.md",
+"25",
+"L25 INLINE KaTeX parse error: Expected 'EOF', got '&' at | ）。  > [!tip] 考试怎么用 > 注意字（word）在 x86 中始终指 16 位；区分 AT&T 与 Inte",
+"寄存器层级：$EAX \\to AX \\to (AH, AL)$；Intel 格式：`mov dest, src`；AT&T 格式：`mov src, dest`（寄存器加%，立即数加$）。"
+],
+[
+"408/计算机组成原理/4-指令系统/4.3-程序的机器级代码表示.md",
+"32",
+"L32 INLINE KaTeX parse error: Expected 'EOF', got '#' at | 。  > [!tip] 考试怎么用 > 内存到内存复制需经寄存器中转；push/pop 操作单位固定为 32 位（4 字",
+"入栈：$ESP \\leftarrow ESP - 4$，然后 $M[ESP] \\leftarrow src$；出栈：$dest \\leftarrow M[ESP]$，然后 $ESP \\leftarrow ESP + 4$。"
+],
+[
+"408/计算机组成原理/4-指令系统/4.3-程序的机器级代码表示.md",
+"39",
+"L39 INLINE KaTeX parse error: Expected 'EOF', got '#' at | （64 位）。  > [!tip] 考试怎么用 > 区分有符号（jg/jle）与无符号（ja/jbe）转移指令；neg",
+"有符号乘法 `imul` 溢出看 OF，无符号 `mul` 溢出看 CF；除法 `idiv` 被除数为 $EDX:EAX$（64 位）。"
+],
+[
+"408/计算机组成原理/4-指令系统/4.3-程序的机器级代码表示.md",
+"79",
+"L79 INLINE KaTeX parse error: Expected 'EOF', got '&' at | 10)|无 (如 10)| |内存寻址|() (如 (%eax))|[] (如 [eax])| |长度指定|指令后缀 (",
+"|立即数前缀|$ (如 $10)|无 (如 10)|"
+],
+[
+"数学/30讲-线代/第4讲-线性方程组.md",
+"24",
+"L24 INLINE KaTeX parse error: Expected '}', got 'EOF' at | \\boldsymbol{x}=[x_{1}, x_{2}, \\boldsymbol{\\beta}_{n}]^{\\bold",
+"方程组 $x_{1}\\boldsymbol{\\beta}_{1}+x_{2}\\boldsymbol{\\beta}_{2}+\\boldsymbol{\\beta}_{n}=\\boldsymbol{\\beta}$ 与向量组线性表示问题是同一问题的两种表现形式。解向量 $\\boldsymbol{x}=[x_"
+],
+[
+"数学/30讲-线代/第4讲-线性方程组.md",
+"59",
+"L59 INLINE KaTeX parse error: Expected & or \\\\ or \\cr or | \\begin{bmatrix} A \\ B \\boldsymbol{\\beta}",
+"方法一：联立 $\\begin{bmatrix} A \\ B \\boldsymbol{\\beta}$ 求解；方法二：将一个通解代入另一个方程组定参数；方法三：令两通解相等求解参数。"
+],
+[
+"数学/30讲-线代/第4讲-线性方程组.md",
+"66",
+"L66 INLINE KaTeX parse error: Expected & or \\\\ or \\cr or | r(A)=r(B)=r(\\begin{bmatrix} A \\ B \\boldsymbol{\\beta}",
+"$Ax=0$ 与 $Bx=0$ 同解 $\\boldsymbol{\\beta}$ 且 $Ax=0$ 的解满足 $Bx=0$；或 $r(A)=r(B)=r(\\begin{bmatrix} A \\ B \\boldsymbol{\\beta}$。"
+],
+[
+"数学/30讲-线代/第4讲-线性方程组.md",
+"73",
+"L73 INLINE KaTeX parse error: Expected & or \\\\ or \\cr or | \\begin{bmatrix} A^T \\ \\boldsymbol{\\beta}^T \\boldsymbol{\\beta",
+"基于 $Ax=0$ 与 $A^T Ax=0$ 同解可推导秩相等；$Ax=b$ 有解时 $A^T x=0$ 与 $\\begin{bmatrix} A^T \\ \\boldsymbol{\\beta}^T \\boldsymbol{\\beta}$ 同解。"
+],
+[
+"数学/30讲-线代/第4讲-线性方程组.md",
+"106",
+"L106 INLINE KaTeX parse error: Expected & or \\\\ or \\cr or | \\begin{bmatrix} A \\ B \\boldsymbol{\\beta}",
+"- 求 $Ax=0$ 与 $Bx=0$ 公共解的最直接方法是什么？::求解联立方程组 $\\begin{bmatrix} A \\ B \\boldsymbol{\\beta}$"
+],
+[
+"数学/30讲-线代/第4讲-线性方程组.md",
+"113",
+"L113 INLINE KaTeX parse error: Expected & or \\\\ or \\cr or | \\begin{bmatrix} A^T \\ \\boldsymbol{\\beta}^T \\boldsymbol{\\beta",
+"- 若 $Ax=b$ 有解，则 $A^T x=0$ 与哪个方程组同解？::$\\begin{bmatrix} A^T \\ \\boldsymbol{\\beta}^T \\boldsymbol{\\beta}$"
+],
+[
+"数学/30讲-高数/第10讲-一元函数积分学的应用（一）——几何应用/10.3-其他几何应用.md",
+"25",
+"L25 INLINE KaTeX parse error: Undefined control sequence | D=\">(x,y)|0 \\\\leq y \\\\leq f(x), a \\\\leq x \\\\leq b\\<",
+"设 $D=\">(x,y)|0 \\\\leq y \\\\leq f(x), a \\\\leq x \\\\leq b\\<$，则 $\\\\bar{x}=\\\\frac{\\\\int_{a}^{b}x f(x)\\\\mathrm{d}x}{\\\\int_{a}^{b}f(x)\\\\mathrm{d}x}$，$\\\\bar{y}="
+],
+[
+"数学/30讲-高数/第10讲-一元函数积分学的应用（一）——几何应用/第10讲-一元函数积分学的应用（一）——几何应用.md",
+"79",
+"L79 INLINE KaTeX parse error: Got function '\\\\' with no  | s=\\\\int_\\\\alpha^\\\\beta\\\\sqrt{x'^2+y'^2}dt",
+"**直角坐标 $s=\\\\int_a^b\\\\sqrt{1+y'^2}dx$；参数方程 $s=\\\\int_\\\\alpha^\\\\beta\\\\sqrt{x'^2+y'^2}dt$；极坐标 $s=\\\\int_\\\\alpha^\\\\beta\\\\sqrt{r^2+r'^2}d\\\\theta$。**"
+],
+[
+"数学/30讲-高数/第10讲-一元函数积分学的应用（一）——几何应用/第10讲-一元函数积分学的应用（一）——几何应用.md",
+"79",
+"L79 INLINE KaTeX parse error: Got function '\\\\' with no  | s=\\\\int_\\\\alpha^\\\\beta\\\\sqrt{r^2+r'^2}d\\\\theta",
+"**直角坐标 $s=\\\\int_a^b\\\\sqrt{1+y'^2}dx$；参数方程 $s=\\\\int_\\\\alpha^\\\\beta\\\\sqrt{x'^2+y'^2}dt$；极坐标 $s=\\\\int_\\\\alpha^\\\\beta\\\\sqrt{r^2+r'^2}d\\\\theta$。**"
+],
+[
+"数学/30讲-高数/第10讲-一元函数积分学的应用（一）——几何应用/第10讲-一元函数积分学的应用（一）——几何应用.md",
+"152",
+"L152 INLINE KaTeX parse error: Got function '\\\\' with no  | s = \\\\int_\\\\alpha^\\\\beta \\\\sqrt{r^2(\\\\theta) + [r'(\\\\theta)]",
+"- 极坐标系下，曲线 $r=r(\\\\theta)$ 的弧长积分公式是什么？::$s = \\\\int_\\\\alpha^\\\\beta \\\\sqrt{r^2(\\\\theta) + [r'(\\\\theta)]^2} \\\\mathrm{d}\\\\theta$"
+],
+[
+"数学/30讲-高数/第11讲-一元函数积分学的应用（二）——积分等式与积分不等式/11.2-积分不等式.md",
+"46",
+"L46 INLINE KaTeX parse error: Can't use function '∫' in  | \\text{∫} f(x)\\text{sin}(nx)dx",
+"对 $\\text{∫} f(x)\\text{sin}(nx)dx$ 使用分部积分：$|\\text{∫} u dv| \\text{≤} |uv| + |\\text{∫} v du|$。利用 $f'(x) \\text{≥} 0$ 去掉绝对值，将 $\\text{∫} |f'(x)\\text{cos}(nx"
+],
+[
+"数学/30讲-高数/第11讲-一元函数积分学的应用（二）——积分等式与积分不等式/11.2-积分不等式.md",
+"46",
+"L46 INLINE KaTeX parse error: Can't use function '∫' in  | |\\text{∫} u dv| \\text{≤} |uv| + |\\text{∫} v du|",
+"对 $\\text{∫} f(x)\\text{sin}(nx)dx$ 使用分部积分：$|\\text{∫} u dv| \\text{≤} |uv| + |\\text{∫} v du|$。利用 $f'(x) \\text{≥} 0$ 去掉绝对值，将 $\\text{∫} |f'(x)\\text{cos}(nx"
+],
+[
+"数学/30讲-高数/第11讲-一元函数积分学的应用（二）——积分等式与积分不等式/11.2-积分不等式.md",
+"46",
+"L46 INLINE KaTeX parse error: Can't use function '∫' in  | \\text{∫} |f'(x)\\text{cos}(nx)|dx",
+"对 $\\text{∫} f(x)\\text{sin}(nx)dx$ 使用分部积分：$|\\text{∫} u dv| \\text{≤} |uv| + |\\text{∫} v du|$。利用 $f'(x) \\text{≥} 0$ 去掉绝对值，将 $\\text{∫} |f'(x)\\text{cos}(nx"
+],
+[
+"数学/30讲-高数/第11讲-一元函数积分学的应用（二）——积分等式与积分不等式/11.2-积分不等式.md",
+"46",
+"L46 INLINE KaTeX parse error: Can't use function '∫' in  | \\text{∫} f'(x)dx",
+"对 $\\text{∫} f(x)\\text{sin}(nx)dx$ 使用分部积分：$|\\text{∫} u dv| \\text{≤} |uv| + |\\text{∫} v du|$。利用 $f'(x) \\text{≥} 0$ 去掉绝对值，将 $\\text{∫} |f'(x)\\text{cos}(nx"
+],
+[
+"数学/30讲-高数/第11讲-一元函数积分学的应用（二）——积分等式与积分不等式/11.2-积分不等式.md",
+"53",
+"L53 INLINE KaTeX parse error: Can't use function '∫' in  | f(x) = \\text{∫}_a^x f'(t)dt",
+"由 $f(a)=f(b)=0$ 得 $f(x) = \\text{∫}_a^x f'(t)dt$ 及 $f(x) = -\\text{∫}_x^b f'(t)dt$。取绝对值相加：$2|f(x)| \\text{≤} \\text{∫}_a^x |f'| + \\text{∫}_x^b |f'| = \\tex"
+],
+[
+"数学/30讲-高数/第11讲-一元函数积分学的应用（二）——积分等式与积分不等式/11.2-积分不等式.md",
+"53",
+"L53 INLINE KaTeX parse error: Can't use function '∫' in  | f(x) = -\\text{∫}_x^b f'(t)dt",
+"由 $f(a)=f(b)=0$ 得 $f(x) = \\text{∫}_a^x f'(t)dt$ 及 $f(x) = -\\text{∫}_x^b f'(t)dt$。取绝对值相加：$2|f(x)| \\text{≤} \\text{∫}_a^x |f'| + \\text{∫}_x^b |f'| = \\tex"
+],
+[
+"数学/30讲-高数/第11讲-一元函数积分学的应用（二）——积分等式与积分不等式/11.2-积分不等式.md",
+"53",
+"L53 INLINE KaTeX parse error: Can't use function '∫' in  | 2|f(x)| \\text{≤} \\text{∫}_a^x |f'| + \\text{∫}_x^b |f'| = \\te",
+"由 $f(a)=f(b)=0$ 得 $f(x) = \\text{∫}_a^x f'(t)dt$ 及 $f(x) = -\\text{∫}_x^b f'(t)dt$。取绝对值相加：$2|f(x)| \\text{≤} \\text{∫}_a^x |f'| + \\text{∫}_x^b |f'| = \\tex"
+],
+[
+"数学/30讲-高数/第11讲-一元函数积分学的应用（二）——积分等式与积分不等式/11.2-积分不等式.md",
+"68",
+"L68 INLINE KaTeX parse error: Can't use function '∫' in  | \\text{∫}_a^b \\text{...} \\text{≤} \\text{∫}_a^b \\text{...}",
+"- **构造辅助函数 vs 直接积分放缩**：**构造辅助函数**：用于证明形如 $\\text{∫}_a^b \\text{...} \\text{≤} \\text{∫}_a^b \\text{...}$ 的复杂不等式，需引入变量 $x$ 替换上限，求导判单调。"
+],
+[
+"数学/30讲-高数/第12讲-一元函数积分学的应用（三）——物理应用与经济应用/12.3-经济应用.md",
+"25",
+"L25 BLOCK KaTeX parse error: Undefined control sequence | C(Q)=\\\frac{d}{dQ}C(Q)",
+"设 $C(Q)$ 为总成本，$C'(Q)$ 为边际成本，$C_0$ 为固定成本，则 $$C(Q)=\\\frac{d}{dQ}C(Q)$$，还原公式为 $$C(Q)=\\int_{0}^{Q}C^{\\prime}(t)\\mathrm{d}t+C_{0}$$，其中 $C(0)=C_0$。"
+],
+[
+"数学/30讲-高数/第13讲-多元函数微分学/第13讲-多元函数微分学.md",
+"27",
+"L27 INLINE KaTeX parse error: Undefined control sequence | \\\frac{xy}{x^2+y^2}",
+"> 遇到分式且分子分母次数相同（如 $\\\frac{xy}{x^2+y^2}$）通常极限不存在；次数分子高于分母通常用夹逼准则证存在。"
+],
+[
+"数学/30讲-高数/第13讲-多元函数微分学/第13讲-多元函数微分学.md",
+"31",
+"L31 INLINE KaTeX parse error: Undefined control sequence | f_x'(x_0,y_0)=\\ ext{lim}_{\\ ext{Delta}x\\ o 0}\\\frac{f(x_0+\\ e",
+"定义式：$f_x'(x_0,y_0)=\\ ext{lim}_{\\ ext{Delta}x\\ o 0}\\\frac{f(x_0+\\ ext{Delta}x,y_0)-f(x_0,y_0)}{\\ ext{Delta}x}$；几何意义：曲面被平面 $y=y_0$ 截得的曲线在点处的切线斜率。"
+],
+[
+"数学/30讲-高数/第13讲-多元函数微分学/第13讲-多元函数微分学.md",
+"38",
+"L38 INLINE KaTeX parse error: Undefined control sequence | \\ ext{lim}_{\\ ext{rho}\\ o 0}\\\frac{\\ ext{Delta}z-(A\\ ext{Delt",
+"定义：$\\ ext{Delta}z=A\\ ext{Delta}x+B\\ ext{Delta}y+o(\\ ext{rho})$，其中 $\\ ext{rho}=\\ ext{sqrt}(\\ ext{Delta}x^2+\\ ext{Delta}y^2)$；判别步骤：①求 $A,B$（即偏导）；②算极限 $\\"
+],
+[
+"数学/30讲-高数/第13讲-多元函数微分学/第13讲-多元函数微分学.md",
+"45",
+"L45 INLINE KaTeX parse error: Undefined control sequence | \\\frac{\\ ext{partial}z}{\\ ext{partial}x}=\\\frac{\\ ext{partial}",
+"公式：若 $z=f(u,v), u=\\ ext{phi}(x,y), v=\\ ext{psi}(x,y)$，则 $\\\frac{\\ ext{partial}z}{\\ ext{partial}x}=\\\frac{\\ ext{partial}z}{\\ ext{partial}u}\\\frac{\\ ext{pa"
+],
+[
+"数学/30讲-高数/第13讲-多元函数微分学/第13讲-多元函数微分学.md",
+"51",
+"L51 INLINE KaTeX parse error: Undefined control sequence | dz=\\\frac{\\ ext{partial}z}{\\ ext{partial}u}du+\\\frac{\\ ext{par",
+"**无论中间变量是自变量还是其他变量的函数，全微分形式 $dz=\\\frac{\\ ext{partial}z}{\\ ext{partial}u}du+\\\frac{\\ ext{partial}z}{\\ ext{partial}v}dv$ 始终成立。**"
+],
+[
+"数学/30讲-高数/第13讲-多元函数微分学/第13讲-多元函数微分学.md",
+"58",
+"L58 INLINE KaTeX parse error: Undefined control sequence | \\\frac{\\ ext{partial}z}{\\ ext{partial}x}=-\\\frac{F_x'}{F_z'}",
+"**方程 $F(x,y,z)=0$ 在某点邻域能确定隐函数 $z=z(x,y)$ 的充要条件是 $F_z'\\ ext{ne}0$，且导数公式为 $\\\frac{\\ ext{partial}z}{\\ ext{partial}x}=-\\\frac{F_x'}{F_z'}$。**"
+],
+[
+"数学/30讲-高数/第13讲-多元函数微分学/第13讲-多元函数微分学.md",
+"59",
+"L59 INLINE KaTeX parse error: Undefined control sequence | \\\frac{\\ ext{partial}z}{\\ ext{partial}x}=-\\\frac{F_x'}{F_z'},",
+"定理条件：$F(P_0)=0$ 且 $F$ 具连续偏导，关键判据 $F_z'(P_0)\\ ext{ne}0$；求导公式：$\\\frac{\\ ext{partial}z}{\\ ext{partial}x}=-\\\frac{F_x'}{F_z'}, \\\frac{\\ ext{partial}z}{\\ ext{"
+],
+[
+"数学/30讲-高数/第13讲-多元函数微分学/第13讲-多元函数微分学.md",
+"105",
+"L105 INLINE KaTeX parse error: Undefined control sequence | \\\frac{\\ ext{partial}z}{\\ ext{partial}x}=-\\\frac{F_x'}{F_z'}",
+"- **隐函数求导的两种方法辨析**：1. **公式法**：令 $F(x,y,z)=0$，直接用 $\\\frac{\\ ext{partial}z}{\\ ext{partial}x}=-\\\frac{F_x'}{F_z'}$。注意：求 $F_x'$ 时将 $y,z$ 均视为独立常数。"
+],
+[
+"数学/30讲-高数/第15讲-微分方程/15.5-微分方程的物理应用.md",
+"32",
+"L32 INLINE KaTeX parse error: Undefined control sequence | \\frac{dT}{dt} \\bigpropto (T-T_0)",
+"设介质温度为 $T_0$，物体温度 $T(t)$。由题意 $\\frac{dT}{dt} \\bigpropto (T-T_0)$。因 $T>T_0$ 时物体冷却，$\\frac{dT}{dt}<0$，故方程为 $\\frac{dT}{dt} = -k(T-T_0)$。通解为 $T(t) = Ce^{-kt"
+],
+[
+"数学/30讲-高数/第15讲-微分方程/第15讲-微分方程.md",
+"37",
+"L37 INLINE KaTeX parse error: Undefined control sequence | y''=p\\\frac{dp}{dy}",
+"**缺 $y$ 型令 $y'=p$，缺 $x$ 型令 $y'=p$ 且 $y''=p\\\frac{dp}{dy}$，将二阶化为一阶求解。**"
+],
+[
+"数学/30讲-高数/第15讲-微分方程/第15讲-微分方程.md",
+"38",
+"L38 INLINE KaTeX parse error: Undefined control sequence | y'=p, y''=p\\\frac{dp}{dy}",
+"缺 $y$ ($y''=f(x,y')$)：令 $y'=p, y''=p'$；缺 $x$ ($y''=f(y,y')$)：令 $y'=p, y''=p\\\frac{dp}{dy}$。"
+],
+[
+"数学/30讲-高数/第15讲-微分方程/第15讲-微分方程.md",
+"41",
+"L41 INLINE KaTeX parse error: Undefined control sequence | p\\\frac{dp}{dy}",
+"> 缺 $x$ 型最容易错在 $y''$ 的代换，必须写成 $p\\\frac{dp}{dy}$ 而不能写成 $p'$，否则变量不统一。"
+],
+[
+"数学/30讲-高数/第15讲-微分方程/第15讲-微分方程.md",
+"45",
+"L45 INLINE KaTeX parse error: Undefined control sequence | \\Δ>0",
+"$\\Δ>0$ (两不等实根 $r_1,r_2$): $y=C_1e^{r_1x}+C_2e^{r_2x}$；$\\Δ=0$ (重根 $r$): $y=(C_1+C_2x)e^{rx}$；$\\Δ<0$ (共轭复根 $\\α\\±i\\β$): $y=e^{\\α x}(C_1\\\\cos\\β x+C_2\\\\sin"
+],
+[
+"数学/30讲-高数/第15讲-微分方程/第15讲-微分方程.md",
+"45",
+"L45 INLINE KaTeX parse error: Undefined control sequence | \\Δ=0",
+"$\\Δ>0$ (两不等实根 $r_1,r_2$): $y=C_1e^{r_1x}+C_2e^{r_2x}$；$\\Δ=0$ (重根 $r$): $y=(C_1+C_2x)e^{rx}$；$\\Δ<0$ (共轭复根 $\\α\\±i\\β$): $y=e^{\\α x}(C_1\\\\cos\\β x+C_2\\\\sin"
+],
+[
+"数学/30讲-高数/第15讲-微分方程/第15讲-微分方程.md",
+"45",
+"L45 INLINE KaTeX parse error: Undefined control sequence | \\Δ<0",
+"$\\Δ>0$ (两不等实根 $r_1,r_2$): $y=C_1e^{r_1x}+C_2e^{r_2x}$；$\\Δ=0$ (重根 $r$): $y=(C_1+C_2x)e^{rx}$；$\\Δ<0$ (共轭复根 $\\α\\±i\\β$): $y=e^{\\α x}(C_1\\\\cos\\β x+C_2\\\\sin"
+],
+[
+"数学/30讲-高数/第15讲-微分方程/第15讲-微分方程.md",
+"45",
+"L45 INLINE KaTeX parse error: Undefined control sequence | \\α\\±i\\β",
+"$\\Δ>0$ (两不等实根 $r_1,r_2$): $y=C_1e^{r_1x}+C_2e^{r_2x}$；$\\Δ=0$ (重根 $r$): $y=(C_1+C_2x)e^{rx}$；$\\Δ<0$ (共轭复根 $\\α\\±i\\β$): $y=e^{\\α x}(C_1\\\\cos\\β x+C_2\\\\sin"
+],
+[
+"数学/30讲-高数/第15讲-微分方程/第15讲-微分方程.md",
+"45",
+"L45 INLINE KaTeX parse error: Undefined control sequence | y=e^{\\α x}(C_1\\\\cos\\β x+C_2\\\\sin\\β x)",
+"$\\Δ>0$ (两不等实根 $r_1,r_2$): $y=C_1e^{r_1x}+C_2e^{r_2x}$；$\\Δ=0$ (重根 $r$): $y=(C_1+C_2x)e^{rx}$；$\\Δ<0$ (共轭复根 $\\α\\±i\\β$): $y=e^{\\α x}(C_1\\\\cos\\β x+C_2\\\\sin"
+],
+[
+"数学/30讲-高数/第18讲-多元函数积分学（仅数学一）/18.4-平面第二型曲线积分.md",
+"25",
+"L25 INLINE KaTeX parse error: Undefined control sequence | W= \\nt_{L} \\boldsymbol{F}  \\ncdot  \\nd  \\nds= \\nt_{L} P(x, y",
+"定义式：$W="
+],
+[
+"数学/30讲-高数/第18讲-多元函数积分学（仅数学一）/18.4-平面第二型曲线积分.md",
+"39",
+"L39 INLINE KaTeX parse error: Undefined control sequence |  \\nt_{ \\ntwidehat{AB}}  \\nd  \\nds = - \\nt_{ \\ntwidehat{BA}}",
+"性质 2（有向性）：$"
+],
+[
+"数学/30讲-高数/第18讲-多元函数积分学（仅数学一）/18.4-平面第二型曲线积分.md",
+"47",
+"L47 INLINE KaTeX parse error: Undefined control sequence |  \\ntwidehat{AC} =  \\ntwidehat{AB} +  \\ntwidehat{BC}",
+"\\nds$。性质 3（可加性）：若 $"
+],
+[
+"数学/30讲-高数/第18讲-多元函数积分学（仅数学一）/18.4-平面第二型曲线积分.md",
+"50",
+"L50 INLINE KaTeX parse error: Undefined control sequence |  \\nt_{ \\ntwidehat{AC}} =  \\nt_{ \\ntwidehat{AB}} +  \\nt_{ \\nt",
+"\\ntwidehat{BC}$，则 $"
+],
+[
+"数学/30讲-高数/第18讲-多元函数积分学（仅数学一）/18.4-平面第二型曲线积分.md",
+"63",
+"L63 INLINE KaTeX parse error: Undefined control sequence |  \\nt_L P dx = 2 \\nt_{L_1} P dx",
+"若 $L$ 关于 $y$ 轴对称：$dx$ 同向，$dy$ 反向。若 $P(x,y)$ 关于 $x$ 偶，$Q(x,y)$ 关于 $x$ 奇，则 $"
+],
+[
+"数学/30讲-高数/第18讲-多元函数积分学（仅数学一）/18.4-平面第二型曲线积分.md",
+"65",
+"L65 INLINE KaTeX parse error: Undefined control sequence |  \\nt_L Q dy = 0",
+"\\nt_{L_1} P dx$，$"
+],
+[
+"数学/30讲-高数/第18讲-多元函数积分学（仅数学一）/18.4-平面第二型曲线积分.md",
+"73",
+"L73 INLINE KaTeX parse error: Undefined control sequence | L:  \\ntbegin{cases} x=x(t)  \\nty=y(t)  \\ntend{cases} (t:  \\n",
+"若 $L:"
+],
+[
+"数学/30讲-高数/第18讲-多元函数积分学（仅数学一）/18.4-平面第二型曲线积分.md",
+"79",
+"L79 INLINE KaTeX parse error: Undefined control sequence |  \\nt_L Pdx+Qdy =  \\nt_{ \\ntalpha}^{ \\ntbeta} [P(x(t),y(t))x'",
+"\\ntbeta)$，则 $"
+],
+[
+"数学/30讲-高数/第1讲-函数极限与连续/1.5-函数的连续与间断.md",
+"25",
+"L25 INLINE KaTeX parse error: Invalid size: '\\\\lim_{x\\\\t | \\\\[\\\\lim_{x\\\\to x_0}f(x)=f(x_0)\\\\]",
+"设 $f(x)$ 在 $x_0$ 邻域有定义，若 $\\\\[\\\\lim_{x\\\\to x_0}f(x)=f(x_0)\\\\]$$，则 $f(x)$ 在 $x_0$ 处连续；等价于 $\\\\[\\\\lim_{x \\\\to x_0^+} f(x) = \\\\lim_{x \\\\to x_0^-} f(x) = f("
+],
+[
+"数学/30讲-高数/第1讲-函数极限与连续/1.5-函数的连续与间断.md",
+"25",
+"L25 BLOCK KaTeX parse error: Expected 'EOF', got '#' at | 。  > [!tip] 考试怎么用 > 判断连续性只需验证极限值是否等于函数值，注意分段点需分别求左右极限。  ###",
+"设 $f(x)$ 在 $x_0$ 邻域有定义，若 $\\\\[\\\\lim_{x\\\\to x_0}f(x)=f(x_0)\\\\]$$，则 $f(x)$ 在 $x_0$ 处连续；等价于 $\\\\[\\\\lim_{x \\\\to x_0^+} f(x) = \\\\lim_{x \\\\to x_0^-} f(x) = f("
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.1-数列的概念.md",
+"25",
+"L25 INLINE KaTeX parse error: Invalid size: 'x_{1},x_{2} | \\\\[x_{1},x_{2},x_{3},\\\\cdots,x_{n},\\\\cdots\\\\]",
+"数列 $\\\\[x_{1},x_{2},x_{3},\\\\cdots,x_{n},\\\\cdots\\\\]$ 简记为 $\\\\{x_{n}\\\\}$，其中 $x_n$ 为通项。本质是整标函数 $x_{n}=f(n),n\\\\in\\\\mathbf{N}_{+}$。注：数列一定有无穷多项。"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.1-数列的概念.md",
+"46",
+"L46 INLINE KaTeX parse error: Expected 'EOF', got '&' at | S_{n}=\\\\begin{cases}na_{1},& r=1,\\\\\\\\dfrac{a_{1}(1-r^{n})}{1",
+"首项 $a_1$，公比 $r$。通项：$a_{n}=a_{1}r^{n-1}$。前 $n$ 项和：$S_{n}=\\\\begin{cases}na_{1},& r=1,\\\\\\\\dfrac{a_{1}(1-r^{n})}{1-r},& r\\\\neq1.\\\\end{cases}$。有限项和公式：$1 + "
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.1-数列的概念.md",
+"82",
+"L82 INLINE KaTeX parse error: Got function '\\\\' with no  | \\\\sum_{n=1}^\\\\infty",
+"|特征|前 n 项和 ($S_n$)|无穷级数 ($\\\\sum_{n=1}^\\\\infty$)|"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.5-海涅定理（归结原则）.md",
+"25",
+"L25 INLINE KaTeX parse error: Undefined control sequence | \\ring{U}(x_0,\\rho)",
+"设 $f(x)$ 在 $\\ring{U}(x_0,\\rho)$ 内有定义，则 $\\rim_{x\\to x_0}f(x)=A \\rim \\forall \\ring{U}(x_0,\\rho)$ 内满足 $x_n\\neq x_0$ 且 $\\rim_{n\\to\\rim}x_n=x_0$ 的数列 $\\ring"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.5-海涅定理（归结原则）.md",
+"25",
+"L25 INLINE KaTeX parse error: Undefined control sequence | \\rim_{x\\to x_0}f(x)=A \\rim \\forall \\ring{U}(x_0,\\rho)",
+"设 $f(x)$ 在 $\\ring{U}(x_0,\\rho)$ 内有定义，则 $\\rim_{x\\to x_0}f(x)=A \\rim \\forall \\ring{U}(x_0,\\rho)$ 内满足 $x_n\\neq x_0$ 且 $\\rim_{n\\to\\rim}x_n=x_0$ 的数列 $\\ring"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.5-海涅定理（归结原则）.md",
+"25",
+"L25 INLINE KaTeX parse error: Undefined control sequence | \\rim_{n\\to\\rim}x_n=x_0",
+"设 $f(x)$ 在 $\\ring{U}(x_0,\\rho)$ 内有定义，则 $\\rim_{x\\to x_0}f(x)=A \\rim \\forall \\ring{U}(x_0,\\rho)$ 内满足 $x_n\\neq x_0$ 且 $\\rim_{n\\to\\rim}x_n=x_0$ 的数列 $\\ring"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.5-海涅定理（归结原则）.md",
+"25",
+"L25 INLINE KaTeX parse error: Undefined control sequence | \\ring{x_n\\ring}",
+"设 $f(x)$ 在 $\\ring{U}(x_0,\\rho)$ 内有定义，则 $\\rim_{x\\to x_0}f(x)=A \\rim \\forall \\ring{U}(x_0,\\rho)$ 内满足 $x_n\\neq x_0$ 且 $\\rim_{n\\to\\rim}x_n=x_0$ 的数列 $\\ring"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.5-海涅定理（归结原则）.md",
+"25",
+"L25 INLINE KaTeX parse error: Undefined control sequence | \\rim_{n\\to\\rim}f(x_n)=A",
+"设 $f(x)$ 在 $\\ring{U}(x_0,\\rho)$ 内有定义，则 $\\rim_{x\\to x_0}f(x)=A \\rim \\forall \\ring{U}(x_0,\\rho)$ 内满足 $x_n\\neq x_0$ 且 $\\rim_{n\\to\\rim}x_n=x_0$ 的数列 $\\ring"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.5-海涅定理（归结原则）.md",
+"32",
+"L32 INLINE KaTeX parse error: Undefined control sequence | x\\to +\\rim",
+"① $x\\to 0$ 取 $x_n=\\frac{1}{n}$；② $x\\to +\\rim$ 取 $x_n=n$；③ $x_n\\to a$ 且 $x_n\\neq a$ 直接代入。即若 $\\rim_{x\\to a}f(x)=A$，则 $\\rim_{n\\to\\rim}f(x_n)=A$。"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.5-海涅定理（归结原则）.md",
+"32",
+"L32 INLINE KaTeX parse error: Undefined control sequence | \\rim_{x\\to a}f(x)=A",
+"① $x\\to 0$ 取 $x_n=\\frac{1}{n}$；② $x\\to +\\rim$ 取 $x_n=n$；③ $x_n\\to a$ 且 $x_n\\neq a$ 直接代入。即若 $\\rim_{x\\to a}f(x)=A$，则 $\\rim_{n\\to\\rim}f(x_n)=A$。"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.5-海涅定理（归结原则）.md",
+"32",
+"L32 INLINE KaTeX parse error: Undefined control sequence | \\rim_{n\\to\\rim}f(x_n)=A",
+"① $x\\to 0$ 取 $x_n=\\frac{1}{n}$；② $x\\to +\\rim$ 取 $x_n=n$；③ $x_n\\to a$ 且 $x_n\\neq a$ 直接代入。即若 $\\rim_{x\\to a}f(x)=A$，则 $\\rim_{n\\to\\rim}f(x_n)=A$。"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.7-单调有界准则.md",
+"36",
+"L36 INLINE KaTeX parse error: Undefined control sequence | \\\frac{x_{n+1}}{x_n} > 1",
+"作差法：$x_{n+1}-x_n > 0$ 则递增；作商法：$\\\frac{x_{n+1}}{x_n} > 1$（同号）则递增。"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.7-单调有界准则.md",
+"80",
+"L80 INLINE KaTeX parse error: Undefined control sequence | \\////lim x_n=A",
+"- **极限存在性证明与求值的逻辑顺序**：**错误做法**：直接设 $\\////lim x_n=A$ 代入求解。"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.7-单调有界准则.md",
+"82",
+"L82 INLINE KaTeX parse error: Undefined control sequence | \\//{x_n\\//}",
+"- **$f'(x)<0$ 时数列的性质**：当递推函数 $f(x)$ 单调减少（$f'(x)<0$）时，数列 $\\//{x_n\\//}$ **不单调**，而是摆动收敛。此时不能直接使用单调有界准则证明收敛，通常需使用压缩映射（夹逼准则的推广）或考察奇偶子列。"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.7-单调有界准则.md",
+"99",
+"L99 INLINE KaTeX parse error: Undefined control sequence | \\\frac{x_{n+1}}{x_n}>1",
+"- 使用作商法 $\\\frac{x_{n+1}}{x_n}>1$ 判增的前提条件？::数列各项必须同号。"
+],
+[
+"数学/30讲-高数/第2讲-数列极限/2.7-单调有界准则.md",
+"114",
+"L114 INLINE KaTeX parse error: Undefined control sequence | |\\//-\\//sin \\\\xi| \\\\cdot |x_n-a| \\\\leq k|x_n-a|",
+"- 例 2.15 中 $|\\\\\\cos x_n - \\\\cos a|$ 如何放缩？::利用中值定理放缩为 $|\\//-\\//sin \\\\xi| \\\\cdot |x_n-a| \\\\leq k|x_n-a|$。"
+],
+[
+"数学/30讲-高数/第4讲-一元函数微分学的计算/4.8-对数求导法.md",
+"27",
+"L27 INLINE KaTeX parse error: Undefined control sequence | \\\frac{1}{y}y' = [\\  f(x)]'",
+"f(x)$；②两边对 $x$ 求导（$y$ 看作中间变量）得 $\\\frac{1}{y}y' = [\\"
+],
+[
+"数学/30讲-高数/第4讲-一元函数微分学的计算/4.8-对数求导法.md",
+"40",
+"L40 INLINE KaTeX parse error: Undefined control sequence | \\\frac{1}{x} + f'(y)y' = y'",
+"2)$。一阶导：$\\\frac{1}{x} + f'(y)y' = y'$；二阶导利用公式 $[f'(y)y']' = f''(y)(y')^2 + f'(y)y''$，整理得 $y'' = -\\\frac{[1-f'(y)]^2-f''(y)}{x^2[1-f'(y)]^3}$。"
+],
+[
+"数学/30讲-高数/第4讲-一元函数微分学的计算/4.8-对数求导法.md",
+"40",
+"L40 INLINE KaTeX parse error: Undefined control sequence | y'' = -\\\frac{[1-f'(y)]^2-f''(y)}{x^2[1-f'(y)]^3}",
+"2)$。一阶导：$\\\frac{1}{x} + f'(y)y' = y'$；二阶导利用公式 $[f'(y)y']' = f''(y)(y')^2 + f'(y)y''$，整理得 $y'' = -\\\frac{[1-f'(y)]^2-f''(y)}{x^2[1-f'(y)]^3}$。"
+],
+[
+"数学/30讲-高数/第4讲-一元函数微分学的计算/4.8-对数求导法.md",
+"78",
+"L78 INLINE KaTeX parse error: Undefined control sequence | \\\frac{1}{y}y'",
+"y$ 对 $x$ 求导的结果是什么？::$\\\frac{1}{y}y'$，其中 $y$ 是 $x$ 的函数，需使用链式法则。"
+],
+[
+"数学/30讲-高数/第4讲-一元函数微分学的计算/4.8-对数求导法.md",
+"87",
+"L87 INLINE KaTeX parse error: Undefined control sequence | (\\\frac{1}{x})' = -\\\frac{1}{x^2}",
+"x + f(y) = y + C$ 两边对 $x$ 求二阶导的左边第一项？::$(\\\frac{1}{x})' = -\\\frac{1}{x^2}$。"
+],
+[
+"数学/30讲-高数/第4讲-一元函数微分学的计算/4.8-对数求导法.md",
+"90",
+"L90 INLINE KaTeX parse error: Undefined control sequence | \\\frac{d}{dx}(y')^2",
+"- 若 $y$ 是 $x$ 的函数，$\\\frac{d}{dx}(y')^2$ 等于多少？::$2y' \\\\\\cdot y''$。"
+],
+[
+"数学/30讲-高数/第6讲-一元函数微分学的应用（二）——中值定理、微分等式与微分不等式/6.1-中值定理.md",
+"132",
+"L132 INLINE KaTeX parse error: Got function '\\\\' with no  | (1+x)^\\\\alpha",
+"- $(1+x)^\\\\alpha$ 展开式第二项系数？::$\\\\alpha$。"
+],
+[
+"数学/概统-基础/第一章-随机事件和概率.md",
+"27",
+"L27 INLINE KaTeX parse error: Undefined control sequence | A \\\bar{A}=\\emptyset, A+\\bar{A}=\\Omega",
+"对立事件满足 $A \\\bar{A}=\\emptyset, A+\\bar{A}=\\Omega$；德摩根律：$\\overline{A \\cup B} = \\bar{A} \\cap \\bar{B}$，$\\overline{A \\cap B} = \\bar{A} \\cup \\bar{B}$。"
+],
+[
+"数学/概统-基础/第二章-一维随机变量及其分布.md",
+"26",
+"L26 INLINE KaTeX parse error: Expected 'EOF', got '}' at | F(x)=P\\\\\\{X\\\\leq x\\\\}",
+"**分布函数 $F(x)=P\\\\\\{X\\\\leq x\\\\}$ 是右连续、单调不减且值域在 $[0,1]$ 的函数，完全决定了随机变量的统计规律。**"
+],
+[
+"数学/概统-基础/第二章-一维随机变量及其分布.md",
+"61",
+"L61 INLINE KaTeX parse error: Got function '\\\\' with no  | u_\\\\alpha",
+"**上 $\\\\alpha$ 分位点 $u_\\\\alpha$ 定义为满足 $P\\\\{X>u_\\\\alpha\\\\}=\\\\alpha$ 的数值，利用对称性可转换概率。**"
+],
+[
+"数学/概统-基础/第二章-一维随机变量及其分布.md",
+"61",
+"L61 INLINE KaTeX parse error: Got function '\\\\' with no  | P\\\\{X>u_\\\\alpha\\\\}=\\\\alpha",
+"**上 $\\\\alpha$ 分位点 $u_\\\\alpha$ 定义为满足 $P\\\\{X>u_\\\\alpha\\\\}=\\\\alpha$ 的数值，利用对称性可转换概率。**"
+],
+[
+"数学/概统-基础/第二章-一维随机变量及其分布.md",
+"62",
+"L62 INLINE KaTeX parse error: Got function '\\\\' with no  | u_{1-\\\\alpha} = -u_\\\\alpha",
+"性质：$u_{1-\\\\alpha} = -u_\\\\alpha$。计算技巧：$P\\\\{|X|<x\\\\}=2\\\\Phi(x)-1=\\\\alpha \\\\Rightarrow x=u_{\\\\frac{1-\\\\alpha}{2}}$。"
+],
+[
+"数学/概统-基础/第二章-一维随机变量及其分布.md",
+"134",
+"L134 INLINE KaTeX parse error: Got function '\\\\' with no  | u_\\\\alpha",
+"- 标准正态分布上 $\\\\alpha$ 分位点 $u_\\\\alpha$ 的定义？::满足 $P\\\\{X > u_\\\\alpha\\\\} = \\\\alpha$ 的实数 $u_\\\\alpha$。"
+],
+[
+"数学/概统-基础/第二章-一维随机变量及其分布.md",
+"134",
+"L134 INLINE KaTeX parse error: Got function '\\\\' with no  | P\\\\{X > u_\\\\alpha\\\\} = \\\\alpha",
+"- 标准正态分布上 $\\\\alpha$ 分位点 $u_\\\\alpha$ 的定义？::满足 $P\\\\{X > u_\\\\alpha\\\\} = \\\\alpha$ 的实数 $u_\\\\alpha$。"
+],
+[
+"数学/概统-基础/第二章-一维随机变量及其分布.md",
+"134",
+"L134 INLINE KaTeX parse error: Got function '\\\\' with no  | u_\\\\alpha",
+"- 标准正态分布上 $\\\\alpha$ 分位点 $u_\\\\alpha$ 的定义？::满足 $P\\\\{X > u_\\\\alpha\\\\} = \\\\alpha$ 的实数 $u_\\\\alpha$。"
+],
+[
+"数学/概统-基础/第五章-大数定律和中心极限定理.md",
+"27",
+"L27 INLINE KaTeX parse error: Undefined control sequence | E(X)=\\μ, D(X)=\\σ^2",
+"设 $E(X)=\\μ, D(X)=\\σ^2$，对任意 $\\ε>0$，有 $P\\{\\|X-\\μ\\|\\≥\\ε\\}\\≤\\σ^2/\\ε^2$ 或 $P\\{\\|X-\\μ\\|<\\ε\\}\\≥1-\\σ^2/\\ε^2$。"
+],
+[
+"数学/概统-基础/第五章-大数定律和中心极限定理.md",
+"27",
+"L27 INLINE KaTeX parse error: Undefined control sequence | \\ε>0",
+"设 $E(X)=\\μ, D(X)=\\σ^2$，对任意 $\\ε>0$，有 $P\\{\\|X-\\μ\\|\\≥\\ε\\}\\≤\\σ^2/\\ε^2$ 或 $P\\{\\|X-\\μ\\|<\\ε\\}\\≥1-\\σ^2/\\ε^2$。"
+],
+[
+"数学/概统-基础/第五章-大数定律和中心极限定理.md",
+"27",
+"L27 INLINE KaTeX parse error: Undefined control sequence | P\\{\\|X-\\μ\\|\\≥\\ε\\}\\≤\\σ^2/\\ε^2",
+"设 $E(X)=\\μ, D(X)=\\σ^2$，对任意 $\\ε>0$，有 $P\\{\\|X-\\μ\\|\\≥\\ε\\}\\≤\\σ^2/\\ε^2$ 或 $P\\{\\|X-\\μ\\|<\\ε\\}\\≥1-\\σ^2/\\ε^2$。"
+],
+[
+"数学/概统-基础/第五章-大数定律和中心极限定理.md",
+"27",
+"L27 INLINE KaTeX parse error: Undefined control sequence | P\\{\\|X-\\μ\\|<\\ε\\}\\≥1-\\σ^2/\\ε^2",
+"设 $E(X)=\\μ, D(X)=\\σ^2$，对任意 $\\ε>0$，有 $P\\{\\|X-\\μ\\|\\≥\\ε\\}\\≤\\σ^2/\\ε^2$ 或 $P\\{\\|X-\\μ\\|<\\ε\\}\\≥1-\\σ^2/\\ε^2$。"
+],
+[
+"数学/概统-基础/第五章-大数定律和中心极限定理.md",
+"30",
+"L30 INLINE KaTeX parse error: Undefined control sequence | \\ε",
+"> 常用于估算概率范围或证明大数定律，注意不等号方向及 $\\ε$ 的取值（如 $k\\σ$）。"
+],
+[
+"数学/概统-基础/第五章-大数定律和中心极限定理.md",
+"30",
+"L30 INLINE KaTeX parse error: Undefined control sequence | k\\σ",
+"> 常用于估算概率范围或证明大数定律，注意不等号方向及 $\\ε$ 的取值（如 $k\\σ$）。"
+],
+[
+"数学/概统-基础/第五章-大数定律和中心极限定理.md",
+"34",
+"L34 INLINE KaTeX parse error: Undefined control sequence | \\\\lim_{n\\\\to\\\\infty}P\\{\\|X_n-a\\|<\\ε\\}=1",
+"若 $\\\\lim_{n\\\\to\\\\infty}P\\{\\|X_n-a\\|<\\ε\\}=1$ 对任意 $\\ε>0$ 成立，则称 $X_n$ 依概率收敛于 $a$，记为 $X_n \\\\xrightarrow{P} a$。"
+],
+[
+"数学/概统-基础/第五章-大数定律和中心极限定理.md",
+"34",
+"L34 INLINE KaTeX parse error: Undefined control sequence | \\ε>0",
+"若 $\\\\lim_{n\\\\to\\\\infty}P\\{\\|X_n-a\\|<\\ε\\}=1$ 对任意 $\\ε>0$ 成立，则称 $X_n$ 依概率收敛于 $a$，记为 $X_n \\\\xrightarrow{P} a$。"
+]
+]

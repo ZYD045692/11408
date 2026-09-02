@@ -1,0 +1,13 @@
+{
+  "id": "conv-1788129323982-e09swm0p0",
+  "providerId": "claude",
+  "title": "你好",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1788129323987,
+  "lastActivityAt": 1788129327908,
+  "sessionId": "ff92840a-e196-4ab7-ab10-77103bb1dd5f",
+  "selectedModel": "claude-code/deepseek-v4-flash-0731",
+  "providerState": {
+    "providerSessionId": "ff92840a-e196-4ab7-ab10-77103bb1dd5f"
+  }
+}

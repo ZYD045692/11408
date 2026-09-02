@@ -4,16 +4,21 @@
   "title": "分析当前项目结构与技术栈",
   "titleGenerationStatus": "success",
   "createdAt": 1786953525114,
-  "lastActivityAt": 1786986350646,
+  "lastActivityAt": 1786990895549,
   "sessionId": null,
-  "selectedModel": "fable",
+  "selectedModel": "claude-code/deepseek-v4-flash-0731",
+  "providerState": {
+    "previousProviderSessionIds": [
+      "cfe5385f-f6a6-4839-808a-74e168ce87aa"
+    ]
+  },
   "usage": {
     "model": "fable",
-    "inputTokens": 1406,
+    "inputTokens": 276,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 96256,
+    "cacheReadInputTokens": 208896,
     "contextWindow": 1000000,
-    "contextTokens": 97662,
-    "percentage": 10
+    "contextTokens": 209172,
+    "percentage": 21
   }
 }

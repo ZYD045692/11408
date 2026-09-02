@@ -6,7 +6,7 @@
   "createdAt": 1786735187555,
   "lastActivityAt": 1786736105336,
   "sessionId": null,
-  "selectedModel": "haiku",
+  "selectedModel": "claude-code/deepseek-v4-flash-0731",
   "providerState": {
     "previousProviderSessionIds": [
       "391592d3-1945-45e1-b058-7d571a37cb1c"

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787902993249-z4m6vml3j",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787902993287-d27nr6b",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787902993248-vhy8xj6",
+      "timestamp": 1787902993248,
+      "rawDisplayText": "方案 C 的暗号是什么？",
+      "canonicalText": "方案 C 的暗号是什么？",
+      "images": [],
+      "contentDigest": "c18893b023879ee9474474bbe69607806da6011ffbd75497ebb88eb67af04f7c",
+      "providerUserMessageId": "fbcd5621-eb87-4829-872c-a63b590ee4f7",
+      "providerAssistantMessageId": "37876e9a-57f2-49dd-bcc6-05195b6bce57"
+    }
+  ]
+}

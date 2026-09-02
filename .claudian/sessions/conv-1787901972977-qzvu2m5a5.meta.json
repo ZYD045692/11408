@@ -1,0 +1,24 @@
+{
+  "id": "conv-1787901972977-qzvu2m5a5",
+  "providerId": "claude",
+  "title": "回答 vault 暗号",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787901972979,
+  "lastActivityAt": 1787901986353,
+  "sessionId": null,
+  "selectedModel": "claude-code/deepseek-v4-flash-0731",
+  "providerState": {
+    "previousProviderSessionIds": [
+      "24534a47-7bf0-412c-9849-1f6eb5d95cce"
+    ]
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 26063,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 1792,
+    "contextWindow": 1000000,
+    "contextTokens": 27855,
+    "percentage": 3
+  }
+}

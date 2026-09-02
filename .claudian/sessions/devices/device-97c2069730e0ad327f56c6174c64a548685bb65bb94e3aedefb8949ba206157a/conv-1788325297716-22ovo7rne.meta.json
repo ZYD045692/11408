@@ -1,0 +1,23 @@
+{
+  "id": "conv-1788325297716-22ovo7rne",
+  "providerId": "claude",
+  "title": "pc存在哪？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1788325297721,
+  "lastActivityAt": 1788325448052,
+  "sessionId": "efd3a722-880d-4bb2-89b1-e5297d347350",
+  "selectedModel": "claude-code/deepseek-v4-flash-0731[1M]",
+  "providerState": {
+    "providerSessionId": "efd3a722-880d-4bb2-89b1-e5297d347350"
+  },
+  "usage": {
+    "model": "deepseek-v4-flash-0731",
+    "inputTokens": 70971,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 46080,
+    "contextWindow": 200000,
+    "contextTokens": 117051,
+    "percentage": 59,
+    "contextWindowIsAuthoritative": true
+  }
+}

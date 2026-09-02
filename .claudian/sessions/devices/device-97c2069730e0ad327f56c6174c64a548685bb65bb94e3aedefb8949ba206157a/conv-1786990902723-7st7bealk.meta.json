@@ -1,0 +1,26 @@
+{
+  "id": "conv-1786990902723-7st7bealk",
+  "providerId": "claude",
+  "title": "实现硅基流动 Qwen3.5-4B 多模态图书鉴定流水线",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786990902730,
+  "lastActivityAt": 1787183189350,
+  "sessionId": null,
+  "selectedModel": "claude-code/deepseek-v4-flash-0731",
+  "providerState": {
+    "previousProviderSessionIds": [
+      "83c347c8-92fd-4836-9f11-3b0ca955f6e9"
+    ]
+  },
+  "isPinned": false,
+  "isArchived": false,
+  "usage": {
+    "model": "fable",
+    "inputTokens": 78,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 205440,
+    "contextWindow": 1000000,
+    "contextTokens": 205518,
+    "percentage": 21
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "base_url": "https://api.siliconflow.cn/v1",
+  "model": "THUDM/GLM-Z1-9B-0414",
+  "tpm_limit": 70000,
+  "rpm_limit": 900,
+  "max_retries": 5,
+  "timeout": 300,
+  "threads": 4,
+  "dpi": 150
+}

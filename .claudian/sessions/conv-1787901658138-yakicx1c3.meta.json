@@ -1,0 +1,26 @@
+{
+  "id": "conv-1787901658138-yakicx1c3",
+  "providerId": "claude",
+  "title": "确认 /init 在此环境是否可用",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787901658140,
+  "lastActivityAt": 1788059897301,
+  "sessionId": "c18d290f-012f-4cb7-a34f-081ce8792966",
+  "selectedModel": "claude-code/deepseek-v4-flash-0731",
+  "providerState": {
+    "previousProviderSessionIds": [
+      "c18d290f-012f-4cb7-a34f-081ce8792966"
+    ],
+    "providerSessionId": "c18d290f-012f-4cb7-a34f-081ce8792966"
+  },
+  "usage": {
+    "model": "claude-code/claude-haiku-4-5",
+    "inputTokens": 1480,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 242688,
+    "contextWindow": 200000,
+    "contextTokens": 244168,
+    "percentage": 100,
+    "contextWindowIsAuthoritative": false
+  }
+}

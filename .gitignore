@@ -1,2 +1,27 @@
-# PDF files
+# PDF files（扫描原书，大文件不入库）
 *.pdf
+
+# 源 PDF 目录 + 裁剪产物（都从扫描原书可再生）
+11408/pdf/
+11408/裁剪pdf/
+
+# Python
+__pycache__/
+
+# 敏感信息（API key，永不入库）
+_vlm/.env
+
+# VLM 审计运行时产物（PLAN.md / scripts/ / config.json 等代码与文档保留跟踪）
+# 页面截图，量大
+_vlm/pages/
+_vlm/logs/
+# 批量脚本自动备份
+_vlm/md_backup/
+_vlm/repair/
+# 模型观察记录，随审计轮次增长；README 保留
+_vlm/results/*
+!_vlm/results/README.md
+_vlm/*.log
+
+# 笔记生成运行时产物（raw 留档 / 失败清单 / 日志均为本地运行时产物，不入库）
+_notes_runtime/

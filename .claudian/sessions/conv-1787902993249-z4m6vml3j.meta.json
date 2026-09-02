@@ -1,0 +1,24 @@
+{
+  "id": "conv-1787902993249-z4m6vml3j",
+  "providerId": "claude",
+  "title": "说明方案 C 的暗号",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787902993252,
+  "lastActivityAt": 1787903001635,
+  "sessionId": null,
+  "selectedModel": "claude-code/deepseek-v4-flash-0731",
+  "providerState": {
+    "previousProviderSessionIds": [
+      "2698b589-95e3-4a45-9959-f41b7d0c36ef"
+    ]
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 24329,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 1792,
+    "contextWindow": 200000,
+    "contextTokens": 26121,
+    "percentage": 13
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788061177040-qhwklzhny",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788061177162-ndos4wo",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788061177038-c4vz7ex",
+      "timestamp": 1788061177038,
+      "rawDisplayText": "你好",
+      "canonicalText": "你好",
+      "images": [],
+      "contentDigest": "815b1925f3db319cfc8ef8cad8a91b3f8b512f630d8f82635cb105e93e666c2a",
+      "providerUserMessageId": "366a9373-80fa-4127-aa90-33b12c2560b9",
+      "providerAssistantMessageId": "d3108953-44b5-4724-a49d-b422cf528125"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788061294190-colps3e",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1788061294186-9mrh7zv",
+      "timestamp": 1788061294186,
+      "rawDisplayText": "我现在想测试一下笔记制作，但是我不想把 API、API key 和模型名称写死，建议用一个 config 放到外面。你看一下警告里面是不是有路径的问题。这个代码可能是以前的老代码。",
+      "canonicalText": "我现在想测试一下笔记制作，但是我不想把 API、API key 和模型名称写死，建议用一个 config 放到外面。你看一下警告里面是不是有路径的问题。这个代码可能是以前的老代码。",
+      "images": [],
+      "contentDigest": "1d59cf47b8e37706f30461ea1fb77f87fe0b8c26334dd219c11ce86d97af3be0",
+      "providerUserMessageId": "45ec902a-1f27-4805-b5e6-eaa13dcc7868"
+    }
+  ]
+}

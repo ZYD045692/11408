@@ -1,12 +1,62 @@
 {
-  "collapse-filter": true,
-  "search": "",
+  "collapse-filter": false,
+  "search": "path:11408/笔记/数学  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"11408/笔记/408/数据结构\"",
+      "color": {
+        "a": 1,
+        "rgb": 4886745
+      }
+    },
+    {
+      "query": "path:\"11408/笔记/408/操作系统\"",
+      "color": {
+        "a": 1,
+        "rgb": 5284175
+      }
+    },
+    {
+      "query": "path:\"11408/笔记/408/计算机组成原理\"",
+      "color": {
+        "a": 1,
+        "rgb": 12682241
+      }
+    },
+    {
+      "query": "path:\"11408/笔记/408/计算机网络\"",
+      "color": {
+        "a": 1,
+        "rgb": 10309341
+      }
+    },
+    {
+      "query": "path:\"11408/笔记/数学/高数\"",
+      "color": {
+        "a": 1,
+        "rgb": 14964297
+      }
+    },
+    {
+      "query": "path:\"11408/笔记/数学/线代\"",
+      "color": {
+        "a": 1,
+        "rgb": 2541274
+      }
+    },
+    {
+      "query": "file:MOC",
+      "color": {
+        "a": 1,
+        "rgb": 16766720
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.1592740743,
+  "scale": 1.159274074300003,
   "close": true
 }

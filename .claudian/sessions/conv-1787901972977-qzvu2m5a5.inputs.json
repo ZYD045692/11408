@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787901972977-qzvu2m5a5",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787901973012-506ng6r",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787901972975-jrqdic1",
+      "timestamp": 1787901972975,
+      "rawDisplayText": "本 vault 的暗号是什么？",
+      "canonicalText": "本 vault 的暗号是什么？",
+      "images": [],
+      "contentDigest": "03a1c6695e6c00f73979d716137c6d6cb15fd00c8151344e8269773e105eb545",
+      "providerUserMessageId": "1a3cdd4f-79b0-481e-bd5d-b82b07326043",
+      "providerAssistantMessageId": "0330fadc-57c9-475c-ad79-f4b3e0fb3086"
+    }
+  ]
+}
